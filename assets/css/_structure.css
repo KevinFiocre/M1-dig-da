@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    column-gap: 20px;
+}
+
+section{
+    display: flex;
+    padding: 100px 60px 100px 60px;
+    
+}
+

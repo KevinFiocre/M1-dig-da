@@ -1,0 +1,97 @@
+.section01{
+    align-items: center;
+    flex-direction: column;
+}
+
+.liste-produits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.produit{
+    padding: 16px;
+    flex-basis: auto;
+}
+
+
+.description{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.section01 a img{
+    background-color: rgb(229, 229, 229);
+}
+
+.etoiles {
+    display: inline-block;
+    font-size: 24px;
+    color: #ffd700; /* Couleur jaune pour les étoiles */
+}
+
+
+
+/* ------------------------ partie 2 --------------------------- */
+
+.section02{
+    align-items: center;
+    flex-direction: row;
+    gap: 5%;
+    background-color: #F7F5F3;
+}
+
+.section02 div{
+    flex-basis: 50%;
+}
+
+/* ------------------------ partie 3 --------------------------- */
+
+.section03{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.avis{
+    padding: 16px;
+    flex-basis: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.avis img{
+    width: 20vw;
+    height: 20vw;
+    border-radius: 50%;
+}
+
+.avis div{
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.avis div p {
+    text-align: center;
+}
+
+.nom{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+/* ------------------------ partie 4 --------------------------- */
+
+.section04{
+    align-items: center;
+    flex-direction: column;
+}

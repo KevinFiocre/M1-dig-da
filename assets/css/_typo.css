@@ -1,0 +1,58 @@
+body {
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    }
+    
+  p {
+    color: #000;
+    text-align: start;
+    font-family: helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }  
+  
+    h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    font-family: Helvetica, sans-serif;
+    font-style: normal;
+    line-height: normal;
+    }
+    
+    h1 {
+      font-size: 64px;
+      font-weight: 700;
+    }
+    
+    h2 {
+      font-size: 48px;
+      font-weight: 700;
+      margin-bottom: 12px;
+    }
+    
+    h3 {
+      font-size: 24px;
+      font-weight: 700;
+    }
+    
+    h4 {
+      font-size: 20px;
+    }
+    
+    h5 {
+      font-size: 18px;
+    }
+    
+    h6 {
+      font-size: 16px;
+    }
+    
+  
+    a {
+      text-decoration: none;
+    }

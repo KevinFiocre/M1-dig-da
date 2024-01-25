@@ -1,0 +1,40 @@
+nav {
+    /* Couleur de fond de la barre de navigation */
+    color: #000000; /* Couleur du texte */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajoute une marge intérieure à la barre de navigation */
+}
+
+/* Style du logo */
+nav img {
+    max-height: 40px; /* Ajustez la hauteur du logo selon vos besoins */
+}
+
+/* Style de la liste de navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+/* Style des éléments de la liste de navigation */
+nav li {
+    margin-right: 20px; /* Ajoute un espace entre les éléments de la liste */
+}
+
+/* Style des liens dans la liste de navigation */
+nav a {
+    text-decoration: none;
+    color: #fff; /* Couleur du texte des liens */
+}
+
+/* Style pour la zone des icônes à droite */
+nav div {
+    display: flex;
+}
+
+/* Style pour les icônes */
+nav img {
+    margin-right: 10px; /* Ajoute un espacement entre les icônes */
+}

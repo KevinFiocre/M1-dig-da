@@ -1,0 +1,11 @@
+.hero {
+    background-color: bisque;
+    background-position: center; /* Centre l'image dans le conteneur */
+    text-align: center; /* Centre le texte horizontalement */
+    padding: 100px; /* Ajoute de la marge intérieure au hero */
+    height: 95vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

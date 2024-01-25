@@ -1,0 +1,11 @@
+@import url('_image.css');
+@import url('_style.css');
+@import url('_navbar.css');
+@import url('_hero.css');
+@import url('_structure.css');
+@import url('_typo.css');
+@import url('_footer.css');
+
+*{
+    box-sizing: border-box;
+}
