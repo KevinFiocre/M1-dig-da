@@ -56,3 +56,8 @@ body {
     a {
       text-decoration: none;
     }
+
+    .text-important{
+      font-weight: 700;
+      font-size: 18px;
+    }
