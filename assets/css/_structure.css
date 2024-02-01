@@ -12,6 +12,7 @@ main{
 section{
     display: flex;
     padding: 100px 60px 100px 60px;
-    
+    flex-direction: column;
+    gap: 40px;
 }
 

@@ -13,6 +13,14 @@
 .produit{
     padding: 16px;
     flex-basis: auto;
+    transition: transform .2s; /* Animation */
+    
+
+
+}
+
+.produit:hover{
+    transform: scale(1.1);
 }
 
 
@@ -30,10 +38,18 @@
     background-color: rgb(229, 229, 229);
 }
 
+.avis{
+display: flex;
+flex-direction: row;
+gap: 4px;
+align-items: center;
+
+}
+
 .etoiles {
     display: inline-block;
-    font-size: 24px;
-    color: #ffd700; /* Couleur jaune pour les étoiles */
+    font-size: 16px;
+    color: #d1ac17; /* Couleur jaune pour les étoiles */
 }
 
 
@@ -49,16 +65,20 @@
 
 .section02 div{
     flex-basis: 50%;
+    display: flex;
+    gap: 32px;
+    flex-direction: column;
 }
+
 
 /* ------------------------ partie 3 --------------------------- */
 
 .section03{
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-.avis{
+.info{
     padding: 16px;
     flex-basis: 30%;
     display: flex;
@@ -67,20 +87,20 @@
     align-items: center;
 }
 
-.avis img{
+.info img{
     width: 20vw;
     height: 20vw;
     border-radius: 50%;
 }
 
-.avis div{
+.info div{
     gap: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.avis div p {
+.info div p {
     text-align: center;
 }
 
@@ -106,6 +126,11 @@
 .articles{
     padding: 16px;
     width: 30vw;
+    transition: transform .2s;
+}
+
+.articles:hover{
+    transform: scale(1.1);
 }
 
 .resume{
