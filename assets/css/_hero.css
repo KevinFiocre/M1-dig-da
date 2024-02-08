@@ -1,6 +1,9 @@
 .hero {
-    background-color: bisque;
-    background-position: center; /* Centre l'image dans le conteneur */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/hero-fond.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     text-align: center; /* Centre le texte horizontalement */
     padding: 100px; /* Ajoute de la marge intérieure au hero */
     height: 95vh;
@@ -8,4 +11,18 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    gap: 16px;
+    align-items: center;
 }
+.hero p{
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+.hero h1{
+    color: white;
+}
+
+
+
+

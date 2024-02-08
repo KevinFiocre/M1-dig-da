@@ -1,40 +1,92 @@
 nav {
-    /* Couleur de fond de la barre de navigation */
-    color: #000000; /* Couleur du texte */
+    background-color: #000000;
+    color: #ffffff; 
+    position: sticky;
+    top: 0px;
+    margin: 0 auto;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px; /* Ajoute une marge intérieure à la barre de navigation */
+    padding: 10px 20px;
 }
 
-/* Style du logo */
+
 nav img {
-    max-height: 40px; /* Ajustez la hauteur du logo selon vos besoins */
+    max-height: 40px; 
+    
 }
 
-/* Style de la liste de navigation */
 nav ul {
     list-style: none;
     display: flex;
+    gap: 5%;
+    flex-basis: 100%;
+    justify-content: center;
 }
 
-/* Style des éléments de la liste de navigation */
-nav li {
-    margin-right: 20px; /* Ajoute un espace entre les éléments de la liste */
+
+
+
+nav ul li{
+    
+    text-align: center;
+    position: relative;
 }
 
-/* Style des liens dans la liste de navigation */
-nav a {
+nav a{
+    display: block;
     text-decoration: none;
-    color: #fff; /* Couleur du texte des liens */
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid transparent;
+    padding: 10px 0px;
+    width: auto;
 }
 
-/* Style pour la zone des icônes à droite */
-nav div {
+nav a:hover{
+    color: rgb(93, 144, 255);
+    border-bottom: 2px solid rgb(0, 157, 255);
+}
+
+
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav > ul li:hover .sous{
     display: flex;
+    flex-flow: column wrap;
 }
 
-/* Style pour les icônes */
-nav img {
-    margin-right: 10px; /* Ajoute un espacement entre les icônes */
+.sous li{
+    flex: 1 1 auto;
+    text-align: left;
 }
+
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+}
+
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+.deroulant > a::after{
+    content:" ▼";
+    font-size: 12px;
+}
+
+.conteneur{
+    margin: 50px 20px;
+    height: 1500px;
+  }
+
+
+
+
