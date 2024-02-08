@@ -1,11 +1,12 @@
-@import url('_image.css');
-@import url('_style.css');
-@import url('_navbar.css');
-@import url('_hero.css');
-@import url('_structure.css');
-@import url('_typo.css');
-@import url('_footer.css');
-@import url('_bouton.css');
+@import url('image.css');
+@import url('style.css');
+@import url('navbar.css');
+@import url('hero.css');
+@import url('structure.css');
+@import url('typo.css');
+@import url('footer.css');
+@import url('bouton.css');
+@import url('reset.css');
 
 *{
     box-sizing: border-box;
